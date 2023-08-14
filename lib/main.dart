@@ -42,10 +42,10 @@ class BiggerText extends StatefulWidget {
   const BiggerText({Key? key, required this.text}) : super(key: key);
 
   @override
-  _BiggerTextState createState() => _BiggerTextState();
+  BiggerTextState createState() => BiggerTextState();
 }
 
-class _BiggerTextState extends State<BiggerText> {
+class BiggerTextState extends State<BiggerText> {
   double _textSize = 16.0;
 
   @override
